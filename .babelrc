@@ -10,7 +10,8 @@
     "production": {
       "plugins": [
         "syntax-flow",
-        "transform-flow-strip-types"
+        "transform-flow-strip-types",
+        "transform-inline-environment-variables"
       ]
     }
   },
