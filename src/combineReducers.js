@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 import {
   getUnexpectedInvocationParameterMessage,
   validateNextState
-} from './utilities';
+} from './utilities/index';
 
 export default (reducers: Object, getDefaultState: ?Function = Immutable.Map): Function => {
   const reducerKeys = Object.keys(reducers);
