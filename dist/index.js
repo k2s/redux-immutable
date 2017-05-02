@@ -12,3 +12,4 @@ var _combineReducers3 = _interopRequireDefault(_combineReducers2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.combineReducers = _combineReducers3.default;
+//# sourceMappingURL=index.js.map

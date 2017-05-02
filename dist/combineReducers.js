@@ -13,11 +13,13 @@ var _index = require('./utilities/index');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function (reducers) {
+  var getDefaultState = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _immutable2.default.Map;
+
   var reducerKeys = Object.keys(reducers);
 
   // eslint-disable-next-line space-infix-ops
   return function () {
-    var inputState = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _immutable2.default.Map();
+    var inputState = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : getDefaultState();
     var action = arguments[1];
 
     // eslint-disable-next-line no-process-env
@@ -45,3 +47,4 @@ exports.default = function (reducers) {
 };
 
 module.exports = exports['default'];
+//# sourceMappingURL=combineReducers.js.map

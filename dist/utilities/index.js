@@ -1,5 +1,4 @@
 'use strict';
-'create index';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -23,3 +22,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.getStateName = _getStateName3.default;
 exports.getUnexpectedInvocationParameterMessage = _getUnexpectedInvocationParameterMessage3.default;
 exports.validateNextState = _validateNextState3.default;
+//# sourceMappingURL=index.js.map

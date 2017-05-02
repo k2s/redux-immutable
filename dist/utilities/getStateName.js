@@ -9,3 +9,4 @@ exports.default = function (action) {
 };
 
 module.exports = exports['default'];
+//# sourceMappingURL=getStateName.js.map
