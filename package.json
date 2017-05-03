@@ -43,7 +43,7 @@
   "scripts": {
     "lint": "eslint ./src ./tests",
     "test": "mocha --compilers js:babel-register './tests/**/*.js'",
-    "build": "NODE_ENV=production babel ./src --source-maps --out-dir ./dist",
+    "build": "NODE_ENV=production babel ./src --out-dir ./dist",
     "benchmark": "NODE_ENV=production node ./benchmarks/index.js",
     "precommit": "npm run lint && npm run test"
   }

@@ -12,4 +12,3 @@ exports.default = function (nextState, reducerName, action) {
 };
 
 module.exports = exports['default'];
-//# sourceMappingURL=validateNextState.js.map

@@ -47,4 +47,3 @@ exports.default = function (reducers) {
 };
 
 module.exports = exports['default'];
-//# sourceMappingURL=combineReducers.js.map
